@@ -15,7 +15,7 @@ int main(){
 	}else if (opcao == 2){
 			caloriasMin = 25 * peso;
 			caloriasMax = 30 * peso;
-			std:: cout << "Consuma no minimo: " << caloriasMin << " Cal" << " \n E consuma no maximo " << caloriasMax << "Cal"; 
+			std:: cout << "Consuma no minimo: " << caloriasMin << " Cal" << " \nE consuma no maximo " << caloriasMax << "Cal"; 
 	}else if (opcao == 3){
 			caloriasMin = 30 * peso;
 			caloriasMax = 35 * peso;

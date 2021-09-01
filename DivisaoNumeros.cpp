@@ -15,9 +15,9 @@ int main (){
 	if (numero % divisor1 == 0 && numero % divisor2 == 0){
 			std:: cout << "Os divisores " << divisor1 << " e " << divisor2 << " dividem " << numero;
 	}else if (numero % divisor1 != 0 && numero % divisor2 == 0){
-		std::  cout << "Que pena " << divisor1 << " nao divide " << numero << "\nmas " << divisor2 << " divide " << numero;
+		std::  cout << "Que pena " << divisor1 << " nao divide " << numero << " mas " << divisor2 << " divide " << numero;
 	}else if (numero % divisor1 == 0 && numero % divisor2 != 0){
-		std:: cout<< "Que pena " << divisor1 << "  divide " << numero << "\nmas " << divisor2 << " nao divide " << numero;
+		std:: cout<< "Que pena " << divisor1 << "  divide " << numero << " mas " << divisor2 << " nao divide " << numero;
 	}else {
 		std:: cout << "Que pena " << divisor1 << " e " <<  divisor2 << " nao dividem " << numero;
 	}

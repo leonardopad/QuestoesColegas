@@ -1,8 +1,8 @@
 #include<iostream>
 int main(){
-	float opcao = 0;
-	float numero = 0;
-	float numero2 = 0;
+	int       opcao = 0;
+	float    numero = 0;
+	float   numero2 = 0;
 	float resultado = 0;
 	
 	std:: cout << "Digite um numero: \n";
@@ -19,6 +19,8 @@ int main(){
 		resultado = numero / numero2;
 	}else if (opcao == 4){
 		resultado =numero * numero2;	
+	}else {
+		std:: cout << "Digite uma opcao valida!";
 	}
 	if (resultado < 0){
 		std:: cout << "Resultado transformado em positivo = " << resultado * -1;

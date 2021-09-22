@@ -21,7 +21,9 @@ int main(){
 		resultado =numero * numero2;	
 	}else {
 		std:: cout << "Digite uma opcao valida!";
+		return 0;
 	}
+	
 	if (resultado < 0){
 		std:: cout << "Resultado transformado em positivo = " << resultado * -1;
 	}else{
